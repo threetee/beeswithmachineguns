@@ -33,7 +33,7 @@ import boto
 from fabric.api import *
 import paramiko
 
-EC2_INSTANCE_TYPE = 'm1.small'
+EC2_INSTANCE_TYPE = 't1.micro'
 
 STATE_FILENAME = 'theswarm.txt'
 
